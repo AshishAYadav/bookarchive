@@ -10,10 +10,10 @@ session_start();
     }
 
 if(isset($_SESSION['ukey'])){
-    $servername = "db4free.net";
-    $username = "YXNoMjRhbml5";
-    $password = "YXNoMjRhbml5";
-    $dbname = "ashish_db";
+    $servername = "hidden.net";
+    $username = "hidden";
+    $password = "hidden";
+    $dbname = "hidden";
     $con = new mysqli($servername, base64_decode($username), base64_decode($password), $dbname);
     if ($con->connect_errno) {
 
