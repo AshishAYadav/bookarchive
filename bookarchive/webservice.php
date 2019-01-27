@@ -2,10 +2,10 @@
 
 if(isset($_GET['user'])){
 	$usr_id = $_GET['user']; 
-    $servername = "db4free.net";
-    $username = "YXNoMjRhbml5";
-    $password = "YXNoMjRhbml5";
-    $dbname = "ashish_db";
+    $servername = "hidden";
+    $username = "hidden";
+    $password = "hidden";
+    $dbname = "hidden";
     $con = new mysqli($servername, base64_decode($username), base64_decode($password), $dbname);
     if ($con->connect_errno) {
     
